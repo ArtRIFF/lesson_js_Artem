@@ -1,0 +1,109 @@
+
+* {
+  box-sizing:border-box;
+  margin:0px;
+  padding: 0px;
+}
+
+.container {
+  width: 1110px;
+  margin: auto;
+}
+@media (max-width:1000px) {
+  body {
+    background: rgb(175, 59, 59);
+  }
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+  }
+
+  .technology__container {
+    text-align: center;
+  } 
+    .technology__cards {
+    
+     display: flex;
+     flex-wrap: wrap;
+     justify-content:space-between;
+    
+    }
+    .technology__card {
+      width: 255px;
+      position: relative;
+      text-align: center;
+      background: rgb(48, 173, 136);
+    }
+  
+    .technology__card-number {
+      font-size: 100px;
+  line-height: 120px;
+  color: rgba(16, 16, 16, 0.08);
+
+    }
+  
+    .technology__icon {
+      width: 80px;
+      position: absolute;
+    top:54px;
+    right:87px;
+    }
+  
+    .technology__card-title {
+      font-size: 18px;
+  line-height: 22px;
+  padding: 19px 0 10px 0;
+    }
+  
+    .technology__desc {
+      font-size: 12px;
+  line-height: 14px;
+  width: 191px;
+  margin: auto;
+    }
+  
+    .anim__container {
+      width: 100%;
+      background: rgb(113, 50, 150);
+      padding-top: 400px;
+    }
+
+    .form {
+      width: 200px;
+      height: 400px;
+      background-color: rgb(57, 107, 45);
+      margin: auto;
+      margin-top: 20px;
+    }
+
+    @keyframes ratata{
+from {
+transform: scale(0);
+background: rgb(195, 130, 55);
+}
+
+to {
+  background: rgb(41, 47, 134);
+  transform: scale(1);
+}
+    }
+    [data-scroll] {
+      transition: opacity 1s;
+    }
+    [data-scroll="in"] {
+      opacity: 1;
+    }
+    [data-scroll="out"] {
+      opacity: 0;
+    }
+
+    .anim_item3[data-scroll] {
+    transition: opasity 6s;
+    }
+    .anim_item3[data-scroll="in"] {
+      opacity: 1;
+     animation: ratata 5s 0.2s 1;
+    }
+  
+      

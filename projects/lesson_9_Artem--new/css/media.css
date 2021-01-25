@@ -1,0 +1,266 @@
+/* Адаптив до 320px */
+
+  @media (max-width:1110px) {
+    .container {
+      width: 100%;
+    }
+    .header__navigation {
+      width: 70%;
+    }
+
+    .features {
+      padding-bottom: 0;
+    }
+
+    .features__cards {
+      justify-content: space-around;
+    }
+
+    .features__card {
+      margin-bottom:15px;
+    }
+
+    .features__text-wrap {
+      top: 15px;
+    }
+
+    .technology__cards {
+      justify-content: space-around;
+    }
+
+    .technology__card {
+      margin-bottom:15px;
+    }
+
+    .contact__form {
+      width: 310px;
+    }
+
+    .contact__first-name, .contact__last-name {
+      padding-left: 10px;
+      padding-right: 10px;
+     width: 140px;
+     height: 40px;
+   }
+   
+   .contact__phone-number, .contact__select-service {
+     padding-left: 30px;
+     padding-right: 30px;
+     width: 310px;
+     height: 40px;
+   }
+      }
+    
+ /* 930 */
+ @media (max-width:930px) {
+  .header__top {
+    flex-direction: column;
+  justify-content: space-between;
+  }
+
+  .logo {
+    margin-bottom:10px;
+  }
+
+  .header__navigation {
+    margin-bottom: 20px;
+  }
+
+.benefits {
+padding-bottom:0;
+}
+
+  .benefits__container {
+    flex-direction: column;
+      }
+
+  .benefits__title {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  .benefits-secondary__container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .benefits-secondary__img {
+width: 100%;
+  }
+
+.benefits-secondary__title {
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+ }
+
+ @media (max-width:613px) {
+
+   .header__title {
+    font-size: 53px;
+    line-height: 62px;
+    padding-bottom: 37px;
+   }
+
+   .header__desk {
+    font-size: 18px;
+    line-height: 139%;
+    width: 419px;
+    margin-bottom: 31px;
+   }
+   .benefits-secondary__picture {
+    width: 80%;
+      }
+  .contact {
+padding-bottom: 5px;
+padding-top: 5px;
+  }
+
+  .contact__container {
+   flex-direction: column;
+   justify-content: space-between;
+  }
+
+  .contact__form {
+    height: 200px;
+  }
+
+  .contact__wrap-text {
+    width:  300px;
+    min-height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .contact__title {
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+}
+ 
+
+ @media (max-width:492px) {
+
+.header__menu {
+flex-direction: column;
+align-items: center;
+}
+
+.header__hero {
+  margin-top: 10px;
+}
+.header__desk {
+  width: 100%;
+}
+
+.header__title {
+font-size:33px;
+margin-bottom: 20px;
+} 
+
+.header__button--hero {
+  margin-bottom: 30px;
+}
+
+   .benefits {
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+
+.benefits__picture {
+    width:100%;
+  }
+
+   .benefits__wrap-text {
+    width: 100%;
+  }
+
+  .benefits__title {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .features {
+    padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  }
+
+  .features__title {
+font-size: 30px;
+margin-bottom: 10px;
+  }
+
+  .features__text-wrap {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .features__img {
+  display: none;
+  }
+
+  .technology {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+.technology__title {
+  padding-bottom: 5px;
+}
+
+.benefits-secondary {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+   .benefits-secondary__picture {
+    width: 100%;
+    text-align: center;
+      }
+
+      .benefits-secondary__title {
+        font-size: 20px;
+    line-height: 43px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+      }
+
+      .benefits-secondary__wrap-text {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .benefits-secondary__desc {
+    padding-bottom: 10px;
+    padding-right:5px;
+      }
+
+  .footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .footer__cards {
+flex-direction: column-reverse;
+align-items: left;
+  }
+
+  .footer h4 {
+    font-size: 13px;
+    margin-bottom:2px;
+    margin-top: 2px;
+  }
+.footer__address__text {
+margin-bottom: 5px;
+}
+
+.footer__support {
+height: auto;
+}
+ }

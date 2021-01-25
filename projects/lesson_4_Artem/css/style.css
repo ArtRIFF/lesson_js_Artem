@@ -1,0 +1,162 @@
+@import url(normalize.css);
+@import url(media.css);
+
+:root {
+  --accent-color: #121212;
+  --link-color: rgb(62, 150, 62);
+  --btn-color: rgb(38, 122, 38);
+}
+
+/* Общее стили */
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Наши стили */
+body {
+  background-color:var(--accent-color);
+  font-family: sans-serif;
+  font-style: 16px;
+}
+
+/* шапка */
+.header {
+  background: #fff;
+  padding: 20px 0px;
+}
+
+.logo, .header__nav {
+display: inline-block;
+}
+
+.logo a {
+  font-family: 'Oswald';
+  font-size: 30px;
+  color: #121212;
+}
+
+.header__nav a {
+  color:var(--link-color);
+  font-weight: 700;
+}
+
+.header__nav a:hover {
+color: rgb(33, 219, 142);
+}
+
+.header__nav a:active {
+  color: rgb(231, 105, 31);
+  }
+
+a {
+  text-decoration: none;
+}
+
+.header__nav {
+  list-style: none;
+}
+
+.header__nav li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.header__nav li:last-child {
+  margin-right:0;
+}
+
+.header_wrapper {
+  display: block;
+  width: 100%;
+}
+
+ .logo, .header__nav {
+   width: 49%;
+ }
+
+ .header__nav {
+   text-align: right;
+ }
+
+ /* main */
+
+ .section_title {
+   color:#fff;
+   background-color:inherit;
+   text-align: center;
+ }
+
+ .cards {
+margin: auto;
+ width: 1120px;
+ text-align: center;
+ }
+
+ .card {
+   display: inline-block;
+   margin-top:30px;
+   margin-left: 30px;
+   width: 320px;
+   background-color: white;
+   border-radius: 10px 10px;
+   vertical-align: top;
+ }
+
+ .cards :last-child{
+   margin-right: 0;
+ }
+
+ .card_title {
+   text-align: center;
+ }
+ 
+ .product_img img {
+   width: 100%;
+   height: 200px;
+ }
+
+ .desc {
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+
+.nav_items {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 15px;
+  
+}
+
+ .link_product {
+   display: inline-block;
+   border: 2px solid var(--link-color);
+   width: 100px;
+   height:25px;
+   text-align: center;
+   padding-top: 5px;
+   cursor: pointer;
+   margin-right: 13px;
+   margin-left:24px;
+ }
+
+ .link_product a {
+color: var(--link-color);
+ }
+
+.btn_buy {
+  display: inline-block;
+  width: 115px;
+  height:33px;
+  background-color: var(--btn-color);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border:none;
+}
+
+.btn_buy:focus{
+  background-color:rgba(230, 44, 146, 0.575);
+}

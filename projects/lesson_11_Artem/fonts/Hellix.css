@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-Regular.eot');
+    src: local('Hellix Regular'), local('Hellix-Regular'),
+        url('Hellix-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-Bold.eot');
+    src: local('Hellix Bold'), local('Hellix-Bold'),
+        url('Hellix-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Hellix-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+

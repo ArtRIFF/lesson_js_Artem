@@ -1,0 +1,294 @@
+/* 1160PX */
+
+@media (max-width:1160px) {
+    .header__top {
+        width: 100%;
+        text-align: center;
+    }
+    .container {
+        width: 96%;
+      }   
+}
+      
+/*1110 PX  */
+
+@media (max-width:1110px) {
+    .container {
+      width: 96%;
+    }
+    .about-software__container {
+        justify-content: center;
+    }
+    .about-software {
+        width: 100%
+    }
+    
+    .section-software__text {
+        width: 100%;
+        height: 100%;
+    }
+    .section-software__text__heading {
+        font-size: 30px;
+        line-height: 38px;
+        
+    }
+    .section-software__text__desc {
+        margin-bottom: 20px;
+    }
+    .block__two-picture {
+        width: 400px;
+        height: 300px;
+    }
+    .block__three-card_picture {
+        text-align: center;
+    }
+    .block__three-card_img {
+        height: 200px;
+        max-width: 300px;
+    }
+    .tech-features-card {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .tech-features-card_heading {
+        padding-top: 0px;
+    }
+    .tech-features__cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tech-features-card_texts {
+        width: 200px
+    }
+    .tech-features_heading {
+        padding-top: 20px;
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .tech-features__container {
+        height: 100%;
+    }
+    .block__technology {
+        height: 100%;
+    }
+    .block__four-picture {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .block__four-img {
+        max-width: 450px;
+        height: 250px;
+    }
+    .section-software__text {
+        height: 100%;
+    }
+    .form__input-first__name {
+        width: 48%;
+        height: 48px;
+        margin-bottom: 5px;
+    }
+    .form__input-last__name {
+        width: 48%;
+        height: 48px;
+        margin-bottom: 5px;
+    }
+    .form__input-phone__number {
+        height: 48px;
+        margin-bottom: 5px;
+    }
+    .form__select__service {
+        height: 48px;
+        margin-bottom: 5px;
+    }
+    .form_submit {
+        width: 150px;
+        height: 48px;
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        height: 100%;
+    }
+}
+
+/* 800PX */
+
+@media (max-width:800px) {
+    .container {
+        width: 96%;
+      }
+    .header__top {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .header-hero_heaving {
+        font-size: 53px;
+        line-height: 62px;
+        padding-bottom: 37px;
+        justify-content: center;
+        padding-top: 90px;
+    }
+    .header-hero_desc {
+        width: 100%;
+        font-size: 18px;
+        
+    }
+    .about-software__container {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .container-picture__block__two-picture {
+        display: flex;
+        justify-content: center;
+    }
+    .section-software__text__heading {
+        font-size: 26px;
+        line-height: 32px;
+        
+    }
+    .block__two-picture {
+        width: 380px;
+        height: 280px;
+    }
+
+    .contacts {
+        height: 100%;
+    }
+
+    .contacts-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+      
+    }
+
+    .software__parametr {
+        width: 100%;
+        justify-content: center;
+        
+    }
+
+    .section-software__text {
+        width: 100%;
+        
+    }
+    .block__three-software__parametr-text {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        max-width: 750px;
+    }
+
+    .block__five-text {
+        justify-content: center;
+    }
+    .block__five-section-software {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contacts_form {
+        width: 400px;
+    }
+
+    .footer__container {
+        height: 100%;
+        padding-top: 20px;
+    }
+    .cards-footer__nav {
+        flex-wrap: wrap;
+    }
+    .contacts_form {
+        justify-content: center;
+    }
+}
+
+/* 500PX */
+@media (max-width:500px) {
+    .container {
+        width: 90%;
+      }
+    .header__menu {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        
+    }
+    .header__top {
+        padding-bottom: 10px;
+    }
+    .header__navigation {
+        height: 100px;
+        position: relative;
+        top: 30px;
+        margin-bottom: 10px;
+    
+    }
+    .header__menu-item {
+        margin-bottom: 2px;
+    }
+    .header-hero_heaving {
+        font-size: 35px;
+        line-height: 62px;
+        padding-top: 50px;
+     
+    }
+    .section-software__text__heading {
+        font-size: 20px;
+        line-height: 26px;
+        
+    }
+    .block__two-picture {
+        margin-top: 10px;
+        width: 300px;
+        height: 200px;
+    }
+    .section-software__text__desc {
+        margin-bottom: 10px;
+    }
+    .block__four-img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .contacts_form {
+        width: 300px;
+    }
+    
+    .footer__menu-item-img {
+        width: 100px
+    }
+}
+/* _______________ */
+@media (max-width:755px) {
+    .container {
+        padding: 0;
+      }
+
+      .header-hero_heaving {
+         width: 100%;
+         
+      }
+      .header__menu {
+          width: 100%;
+      }
+}
+/* коли пооставив ширину на 100% в хедер-хиро_хевінг злиплась навігація
+ тому добавив ще це  */
+@media (max-width:739px) {
+.header__menu-item {
+    margin-right: 10px;
+}
+}
+/* при старті 2секундний скролл був через animate__backInLeft animate__fadeInBottomRight секціях, 
+ну коли я їх убрав, то скролл зник */
