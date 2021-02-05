@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Potta+One:regular" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display:regular,500,600,700,800,900"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Lesson 2 js</title>
+</head>
+
+<body>
+  <main class="tab-container">
+    <nav class="tab">
+      <div class="tab__item tab--active">Random color servise</div>
+      <div class="tab__item">Generator radius servise</div>
+    </nav>
+    <section class="tab__content ">
+      <div class="tab__card rcolor--area">
+        <div class="tab__desk">
+          <h2 class='rcolor__desk'>Click SPACE</h1>
+            <span class="rcolor--area__result">Color</span>
+        </div>
+      </div>
+    </section>
+    <section class="tab__content tab__content--invisible ">
+      <div class="tab__card br--area">
+        <div class="tab__desk">
+          <h2>Border Radius</h1>
+            <span class="br--area__result">Code </span>
+        </div>
+        <div class="br">
+          <div class="br__item">
+            <input type="range" class="topLeft" min="0" max="40">
+          </div>
+          <div class="br__result">
+          </div>
+          <div class="br__item">
+            <input type="range" class="topRight" min="0" max="40">
+          </div>
+          <div class="br__item">
+            <input type="range" class="bottomRight" min="0" max="40">
+          </div>
+          <div class="br__item">
+            <input type="range" class="bottomLeft" min="0" max="40">
+          </div>
+        </div>
+    </section>
+
+  </main>
+  <script src="script/script.js"></script>
+</body>
+
+</html>
